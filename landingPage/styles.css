@@ -36,6 +36,10 @@ body {
 .navbar.scrolled {
     padding: 0.5rem 2rem;
 }
+.logo img {
+    width: 75px; /* Adjust size as needed */
+    height: auto; /* Maintains aspect ratio */
+}
 
 .logo {
     font-size: 1.5rem;
@@ -209,6 +213,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
 /* User Categories */
